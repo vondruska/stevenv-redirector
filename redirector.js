@@ -4,11 +4,12 @@ addEventListener('fetch', event => {
 
 const redirects = new Map([
   ["linkedin", "https://www.linkedin.com/in/stevenvondruska"],
-  ["github", "https://github.com/vondruska"]
+  ["github", "https://github.com/vondruska"],
+  ["ramhacks", "https://github.com/vondruska/ramhacks-2019-docker"]
 ]);
 
 const defaultRedirect = "https://stevenvondruska.com";
-const responseCode = 302
+const responseCode = 302;
 
 /**
  * Fetch and log a request
