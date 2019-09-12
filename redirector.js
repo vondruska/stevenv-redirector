@@ -3,7 +3,7 @@ addEventListener('fetch', event => {
 })
 
 const redirects = new Map([
-  ["linkedin", "https://www.linkedin.com/in/stevenvondruka"],
+  ["linkedin", "https://www.linkedin.com/in/stevenvondruska"],
   ["github", "https://github.com/vondruska"]
 ]);
 
